@@ -12,7 +12,9 @@ const typeDefs = gql`
   # A User
   type User {
     id: ID!
+    email: String!
     username: String!
+    img_url: String
     posts: [Posts]!
   }
   # A Post Object
